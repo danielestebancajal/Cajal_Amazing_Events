@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(9, 12, 11);
+  min-height: 10vh;
+}
+#LOGO {
+  max-width: 2rem;
+}
+#NAVHOME {
+  justify-content: space-around;
+}
+#BUTTONS {
+  gap: 1rem;
+}
+
+#carouselExample img {
+  max-height: 20vh;
+  object-fit: cover;
+}
+#home {
+  display: flex;
+  color: white;
+  position: absolute;
+  right: 50%;
+  top: 15%;
+  font-size: 3rem;
+}
+
+#buscador {
+  display: inline;
+  flex-grow: 4;
+}
+#campodebusqueda {
+  max-width: 40%;
+  display: inline;
+  flex-grow: 3;
+}
+#formnav {
+  display: flex;
+  gap: 1rem;
+}
+main {
+  background-color: rgb(2, 2, 2);
+  min-height: 64vh;
+}
+main form {
+  padding: 1rem;
+  color: white;
+}
+
+#CAJA {
+  border-radius: 1rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+#tarjetas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(1, 1, 1);
+  min-height: 5vh;
+  display: inline;
+  display: flex;
+  color: white;
+}
+#social {
+  gap: 1rem;
+}
